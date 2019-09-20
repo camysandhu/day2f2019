@@ -5,8 +5,8 @@ public class CollegeExample
 
     public static void main(String[] args)
     {
-         int a,b;
-        Airthmetic airthmetic= new Airthmetic();
+        // int a,b;
+       // Airthmetic airthmetic= new Airthmetic();
 
 
       /*System.out.println("ADD :  " + airthmetic.add(21,12) );

@@ -145,11 +145,23 @@ public class Student {
         if (marks5 < PASS_MARKS) {
             count++;
         }
+        if(count ==1)
+        {
+            System.out.println("FAIL");
+            return false;
+
+        }else if(count >= 2)
+        {
+            System.out.println("FAIl");
+            return  false;
+        }
         if (count >= 2) {
             return false;
 
         }
         return true;
+
+
 
 
     }
